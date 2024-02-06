@@ -1,0 +1,13 @@
+ /* Custom CSS for scrollbar */
+ #store_table::webkit-scrollbar {
+    width: 12px; /* Set the width of the scrollbar */
+  }
+
+ #store_table::webkit-scrollbar-thumb {
+    background-color: #007bff; /* Set the color of the scrollbar thumb */
+    border-radius: 6px; /* Set the border radius of the scrollbar thumb */
+  }
+
+ #store_table::webkit-scrollbar-track {
+    background-color: #f8f9fa; /* Set the color of the scrollbar track */
+  }
